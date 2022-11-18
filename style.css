@@ -68,6 +68,57 @@ span.main-header{
   height: 60px;
   width: 60px;
  }
+
+ .box {
+    flex-direction: column;
+    display:inline-block;
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to top, black 50% rgb(128, 54, 54) 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+  }
+  .box h1{
+    color: rgb(134, 16, 208);
+  }
+  .box:hover {
+    background-position: left bottom;
+    color: rgb(134, 16, 208);
+    border: none;
+    box-shadow: 0 0 20px rgb(214, 210, 219);
+  }
+  
+  .box button{
+    color: rgb(134, 16, 208);
+    font-size: 19px;
+    line-height: 19px; 
+    padding: 15px; 
+    font-weight: bold;
+    text-decoration: none;
+    font-style: none; 
+    font-variant: normal;
+    text-transform: uppercase; 
+    box-shadow: rgba(0, 0, 0, 0) -100px -100px 15px 5px;
+    border: 2px solid rgb(119, 27, 164); 
+    display: inline-block;
+    font-family: Avenir;
+    ;
+  }
+  .box button:hover{
+    background: #dccbde; 
+  }
+    .box button:active {
+    background: #f6d5fa; 
+  }
+img.services{
+  height: 200px;
+  width:200px;
+}
  /* NAVBAR MENU */
  .menu {
   display: flex;
@@ -138,4 +189,20 @@ span.main-header{
   width: 60px;
   text-decoration: none;
   margin: 5px 80px;
+}
+
+/*fOUNDERS PAGE/ ABOUT US*/
+img.Founders{
+  height:300px;
+  width: 200px;
+  align-items: right;
+  align-self: center;
+  justify-items:right;
+  display:inline-block;
+  margin: 5px 80px;
+  float: left;
+}
+p.FounderInfo{
+  display: block;
+ float: right;
 }
