@@ -29,7 +29,7 @@ h2.counter{
  
 /*Making the span tag*/
 span.main-header{
-  font-size: 15px;
+  font-size: 20px;
   color: rgb(173, 8, 173);
   text-align: left;
 }
@@ -68,10 +68,44 @@ span.main-header{
   height: 60px;
   width: 60px;
  }
+img.mainimg {
+  float: right;
+  margin: 0px 0px 15px 15px;
+  width:300px;
+  height:300px;
+}
+h2.title2{
+  font-size: 2rem;
 
+}
+
+p.imginfo{
+font-size:15px;
+}
+
+.btn1{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #3e2093;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .btn1:hover{
+    background: #5029bc;
+  }
+}
+/*Making the shortcuts display*/
+#whatwedo div.row{
+  display:flex;
+  flex-direction: row;
+}
  .box {
-    flex-direction: column;
-    display:inline-block;
+    display: flex;
+    flex-direction:column;
     width: 300px;
     height: 450px;
     border: 1px solid black;
@@ -106,8 +140,6 @@ span.main-header{
     box-shadow: rgba(0, 0, 0, 0) -100px -100px 15px 5px;
     border: 2px solid rgb(119, 27, 164); 
     display: inline-block;
-    font-family: Avenir;
-    ;
   }
   .box button:hover{
     background: #dccbde; 
@@ -116,8 +148,9 @@ span.main-header{
     background: #f6d5fa; 
   }
 img.services{
-  height: 200px;
+  height:200px;
   width:200px;
+  color: none;
 }
  /* NAVBAR MENU */
  .menu {
@@ -163,46 +196,181 @@ img.services{
  section.whatwedo{
   display: flex;
  }
- /*SOCIAL MEDIA ICONS*/
- .fa:hover {
-  opacity: 0.9;
-}
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-pinterest {
-  background: #cb2027;
-  color: white;
-}
-
-.fa-reddit {
-  background: #ff5700;
-  color: white;
-}
-
-.fa {
-  padding: 20px;
-  font-size: 40px;
-  width: 60px;
-  text-decoration: none;
-  margin: 5px 80px;
-}
-
-/*fOUNDERS PAGE/ ABOUT US*/
 img.Founders{
-  height:300px;
-  width: 200px;
-  align-items: right;
+ float:left;
+position:sticky;
+ margin: 0px 0px 15px 15px;
+ width:200px;
+ height:200px;
+ padding-right: 20px;
+}
+
+/*ABOUT US - MAKING THE MISSION AND VISION STATEMENT*/
+#vision-section{
+  display:flex;
+flex-direction:column;
+background-color:ghostwhite;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+#vision-section h1{
+font-size: 45px;
+display:flex;
+}
+
+/*Making the table for the list of addictions*/
+.tableinfo{
   align-self: center;
-  justify-items:right;
-  display:inline-block;
-  margin: 5px 80px;
-  float: left;
+  text-align: center;
+  justify-content: center;
+  border-radius: 2px;
+  background-color: #dbc3e9;
 }
-p.FounderInfo{
-  display: block;
- float: right;
+.table-header{
+  color:#5f2093;
+  align-self: center;
 }
+/* Contact US FORM*/
+*{
+  font-family: Avenir;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ .container{
+   width: 85%;
+   background: #fff;
+   border-radius: 6px;
+   padding: 20px 60px 30px 40px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+ }
+ .container .content{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .container .content .left-side{
+   width: 25%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 15px;
+   position: relative;
+ }
+ .content .left-side::before{
+   content: '';
+   position: absolute;
+   height: 70%;
+   width: 2px;
+   right: -15px;
+   top: 50%;
+   transform: translateY(-50%);
+   background: #afafb6;
+ }
+ .content .left-side .details{
+   margin: 14px;
+   text-align: center;
+ }
+ .content .left-side .details i{
+   font-size: 30px;
+   color: #4a2093;
+   margin-bottom: 10px;
+ }
+ .content .left-side .details .topic{
+   font-size: 18px;
+   font-weight: 500;
+ }
+ .content .left-side .details .text-one,
+ .content .left-side .details .text-two{
+   font-size: 14px;
+   color: #afafb6;
+ }
+ .container .content .right-side{
+   width: 75%;
+   margin-left: 75px;
+ }
+ .content .right-side .topic-text{
+   font-size: 23px;
+   font-weight: 600;
+   color: #5f2093;
+ }
+ .right-side .input-box{
+   height: 50px;
+   width: 100%;
+   margin: 12px 0;
+ }
+ .right-side .input-box input, .input-box-opotion
+ .right-side .input-box textarea ,textarea, select{
+   height: 100%;
+   width: 100%;
+   border: none;
+   outline: none;
+   font-size: 16px;
+   background: #F0F1F8;
+   border-radius: 6px;
+   padding: 0 15px; 
+   resize: none;
+ }
+ .right-side .message-box{
+   min-height: 110px;
+ }
+ .right-side .input-box textarea{
+   padding-top: 6px;
+ }
+ .right-side .button{
+   display: inline-block;
+   margin-top: 12px;
+ }
+ .right-side .button input[type="button"]{
+   color: #fff;
+   font-size: 18px;
+   outline: none;
+   border: none;
+   padding: 8px 16px;
+   border-radius: 6px;
+   background: #3e2093;
+   cursor: pointer;
+   transition: all 0.3s ease;
+ }
+ .button input[type="button"]:hover{
+   background: #5029bc;
+ }
+ 
+ @media (max-width: 950px) {
+   .container{
+     width: 90%;
+     padding: 30px 40px 40px 35px ;
+   }
+   .container .content .right-side{
+    width: 75%;
+    margin-left: 55px;
+ }
+ }
+ @media (max-width: 820px) {
+   .container{
+     margin: 40px 0;
+     height: 100%;
+   }
+   .container .content{
+     flex-direction: column-reverse;
+   }
+  .container .content .left-side{
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container .content .left-side::before{
+    display: none;
+  }
+  .container .content .right-side{
+    width: 100%;
+    margin-left: 0;
+  }
+ }

@@ -29,7 +29,7 @@
                 <li><a href="Articles.html">Articles</a></li>
                 <li><a href="Videos.html">Videos</a></li>
                 <li><a href="Recoverytools.html">Recovery Tools</a></li>
-                <li><a href="Support.html">Support Groups</a></li>
+               
               </ul>
             </li>
             <li><a href="Partners.html">Our Partners</a></li>
@@ -37,51 +37,81 @@
           </div>
         </ul>
       </nav>
-      
-      <section class="contact">
-       <div class="content">
-        <h2>Feel free to Contact Us</h2>
-        <p>To enquire about our services or to seek help for companies and professional teams</p>
-       </div>
-       <div class="container">
-        <div class="contactInfo">
-          <div class="box">
-            <div class="icon"></div>
-            <div class="text">
-              <h3>Our Offices</h3>
-              <p>The Catholic University of Eastern Africa,<br> Bogani East Road off Langata Road, <br>Nairobi, Kenya</p>
-              <h3></h3>
+      <!--CONTACT US FORM-->
+
+      <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">Catholic University of Eastern Africa</div>
+              <div class="text-two">Bogani East Road, Nairobi</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+25478993564</div>
+              <div class="text-two">+25476345678</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">diamikayouthprogramme@gmail.com</div>
             </div>
           </div>
-          <div class="box">
-            <div class="icon"></div>
-            <div class="text">
-              <h3>Phone Numbers:</h3>
-              <p>+254 722 000 000 <br>
-                +254 700 000 000</p>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>For more information about us or for your suggestions or complains, feel free to reach us:</p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" aria-required="true" placeholder="Enter your name">
             </div>
-          </div>
-          <div class="box">
-            <div class="icon"></div>
-            <div class="text">
-              <h3>Email</h2>
-                <p>Diamikayouthprogramme@gmail.com</p>
+            <div class="input-box">
+              <input type="text" aria-required="true" placeholder="Enter your email">
             </div>
-          </div>
+            <div class="input-box">
+             <label for="select">What would you like to enquire about?</label>
+             <select>
+              <option>Complaint/Suggestions</option>
+              <option >Suggestions for therapy and rehabilitation</option>
+              <option>Solutions for Teams and Professionals</option>
+              <option>Additional Reasearch and Input</option>
+               <option>Other</option>
+            </select>
+            </div>
+            <br>
+            <div class="input-box">
+              <label for="">County of Residence</label>
+              <select name="County" id="County">
+                <option >Nairobi</option>
+                <option >Kiambu</option>
+                <option >Machakos</option>
+                <option >Kajiado</option>
+                <option >Uasin Gishu</option>
+                <option >Kisumu</option>
+                <option >Tharaka Nithi</option>
+                <option >Mombasa</option>
+                <option >Nyeri</option>
+                <option >Embu</option>
+                <option >Taita Taveta</option>
+                <option >Migori</option>
+                <option >Makueni</option>
+                <option >Embu</option>
+                <option >Tana River</option>
+                <option >Garissa</option>
+                <option >Marsabit</option>
+                <option >Kilifi</option>
+                <option >Elgeyo Marakwet</option>
+            </select><br>
+            </div>
+            <br>
+            <div class="input-box">
+              <textarea name="" id="" cols="30" placeholder="Write your message here" rows="10"></textarea>
+            </div>
+           
+            <div class="button">
+              <input type="button" value="Send Now" >
+            </div>
+          </form>
         </div>
-       </div>
-      </section>
-      <section id="ContactUs">
-        <h1 class="headings">Contact Us to Kick Start your Journey</h1>
-        <h3>For Suggestions, Enquires and Complaints fill out the form below</h3>
-        <!--the form for filling in contact details-->
-        <form id="form-contact">
-            <input type="text " id="name" required class=" input " placeholder="Name"><br>
-            <input type="email" id="email" required class=" input " placeholder="Email Address "><br>
-            <textarea name="msg " class="input " id=" msg " cols="30 " rows="10 " placeholder="Enter your Message "></textarea><br>
-            <button id="input">
-            <input type="submit" value="Submit your Response">
-        </button>
-        </form>
-    </section>
-    </body>
