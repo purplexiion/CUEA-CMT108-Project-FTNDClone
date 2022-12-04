@@ -6,7 +6,8 @@
     "axe/structure": [
       "default",
       {
-        "listitem": "off"
+        "listitem": "off",
+        "list": "off"
       }
     ],
     "axe/forms": [
@@ -14,6 +15,12 @@
       {
         "label": "off",
         "select-name": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
       }
     ]
   }

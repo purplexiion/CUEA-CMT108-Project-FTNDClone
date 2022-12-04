@@ -17,7 +17,7 @@
 
 /* NAVBAR STYLING STARTS */
 *{
-    font-family: Avenir, 'Times New Roman', Times, serif
+  font-family: 'Avenir', sans-serif;
 }
 
 .navbar {
@@ -223,4 +223,21 @@
    width: 100%;
    margin-left: 0;
  }
+}
+
+
+.btn1{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100px;
+}
+.btn1:hover{
+  background: #5029bc;
 }

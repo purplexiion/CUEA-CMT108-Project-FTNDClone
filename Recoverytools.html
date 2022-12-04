@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="recoverytools.css">
-   <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
-    <script src="index.js" type="text/javascript"></script>
-    <title>Diamika: Changing lives through Educating on the Harms of Sexual Abuse, Trafficking and Pornography</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="index.js" type="text/javascript"></script>
+  <title>Diamika: Changing lives through Educating on the Harms of Sexual Abuse, Trafficking and Pornography</title>
 </head>
 <body>
     <!--Navigation Bar-->
     <nav class="navbar">
         <!-- LOGO -->
         <div class="logo">
-            <img src="DIAMIKA.png" alt="" class="logo">
+            <img src="Images/DIAMIKA.png" alt="" class="logo">
         </div>
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
@@ -28,66 +30,82 @@
               <ul class="dropdown">
                 <li><a href="Articles.html">Articles</a></li>
                 <li><a href="Videos.html">Videos</a></li>
-                <li><a href="Recoverytools.html">Recovery Tools</a></li>
               </ul>
-            </li>
-            <li><a href="Partners.html">Our Partners</a></li>
+            </li>  
+            <li><a href="Recoverytools.html">Recovery Tools</a></li>
             <li><a href="ContactUs.html">Contact Us</a></li>
           </div>
         </ul>
       </nav>
-      <section id="schoolsinfo">
+      <section id="toolsinfo">
         <span class="main-header">WHETHER BIG OR SMALL, SUPPORT MAKES THE JOURNEY WORTH TAKING</span>
             <h1 id="section-maintain-define">Here are some accountability tools you can use in your journey:</h1>
         <div class="row">
           <div class="box">
-            <img src =  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAnFBMVEX///8pddY8PDz8/PxAQEA0NDQ3NzdBQUFFRUVJSUlHR0fIyMi6urrq6uoictWqqqoAZ9OJiYkWbtTy9vzO2/MAatR8fHzAwMDj4+NEgtnz8/Ozs7MwMDCfn5/c3NwmJiZik97f6PdQUFCXl5diYmLE1PGSseY2e9h+pOLNzc1mZmakpKSEhIQAYNG5ze/Z4/auxeyfuukAWtBwcHAFVDTFAAAEYklEQVR4nO3abXOiOhgG4BjeEhBssVYXUFq021a73e36///bhvAWKTMic9oMnvv60EpEjPcQ8hAlBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+K0+6OzBKD7/edXdhhB7CSai7D+MjUpssfuvuxdjkqU1CXN0uI1Ob3Dzq7se4FKkFz7r7MS5FapMbXNouUaV2p7sjo4LUhkBqQyC1IZDaEGpqjw+aOzMaJ6mF4Yvu/ozDaWriwVx3j8bgRU1tIR4tcIU77/GmlRpi6+NP2EoNg7SPj7CVGqaEPt7DVmo/dPdoFIzFSWoBUuvn/S9SGwqpDYHUhkBqQyC1IU5Se8L3Vj1NAjW1YKK7P+PwM1RTE/XuT909GoVFk9rvX/JWXnePxuApbL5SNp4D/JihHzlGw3Kt6E5uYJSe95KfYAuj2DDyERtgCeQ8ubhbxTZfYOWoH7neFpa/oHyXGx96ezQKd8VMKld05wEWxfsqyrY8t3kgY8OPUPv4qHKrUvuju0fj8KO4uXp+Vm6y4Kx5cVNaCCb43qonJTekdoE6N6R2kTI3pHYhmRtSu5jIDakNMA8CpDbAHKkBAAAA6GBUmqZo87qJPu3y+RVlmxG12/MtX3m9erCrEJlWJY2LJm+fUEqt3bLcxaflDtlWfvxtWr/EskU4fpKu8vZjUrUmR0KydFa/B01fv/ljfbUl5cws2Pey5Wi7DrWp49r74mSalrs4zEk8sZ1Rx3FczsVf2eBROhXNUcJ5eSQzJUbKk1X5HntGYy0f7ut4lN3OSvJc2om8tq+b163tskzmNjXZbRzHs3Xm8ETs468Ph9nedbaHwzqWhzBlbBbfxeWRNoSsqZsVbzGrH10Pcap46vat6WbFlcjPXOctfzA1q13emHmo9mN2VB+ijI3dq0faMXOb/19Z3PLJlRGxLZVNP+G0iiOyuZWPsyY2366TEbH59SE6Y8tfnl/SMteefln3dWnFtnbM+kpOZqaTny9NbJHNjuVz52MjnsWZQbamc9p8FcRnVmPbu3YzoHzb3RE1tiWVOeZ6xCYGvPO2sTg3yNXxKC9LkDSPz+WW8qTFKWlii8SUWs+OXbFxVtYfVXyZyxhPNt/yQb6XVxcgdn79Z52x8aJyM1lSj+DO2KoCJCmfEbMBpzNyhZQCJJ8KduogjapBKpPl3D02J87n2AxRgDT1RyE23SO5Rq0CZKtOCXE1Jci6LeOmUrR2xda+tonTzXbWX9Jt3VozqbiC1wWIwU4KEDHikuYeCbGpsZF7pyp3jR0rSodqSpjaTaSI7TQ2w2UuXW/8zcFk9c1VOY7zO4hqv/95bMtWbCTKKM9v5U2X7opzq6nbdoxWKbwxq4lN3sobSWds23bbVVilabuuil07Xzji1QSwSdOyWotovRo0S2n7EFl6IC1GUQ1eIb/jNnvlLb1V1y5GE7Gyjlk+b3TUtdHqcxsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMX+AW4/Rreux7tcAAAAAElFTkSuQmCC" alt ="" > 
+            <img class="services"src =  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAnFBMVEX///8pddY8PDz8/PxAQEA0NDQ3NzdBQUFFRUVJSUlHR0fIyMi6urrq6uoictWqqqoAZ9OJiYkWbtTy9vzO2/MAatR8fHzAwMDj4+NEgtnz8/Ozs7MwMDCfn5/c3NwmJiZik97f6PdQUFCXl5diYmLE1PGSseY2e9h+pOLNzc1mZmakpKSEhIQAYNG5ze/Z4/auxeyfuukAWtBwcHAFVDTFAAAEYklEQVR4nO3abXOiOhgG4BjeEhBssVYXUFq021a73e36///bhvAWKTMic9oMnvv60EpEjPcQ8hAlBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+K0+6OzBKD7/edXdhhB7CSai7D+MjUpssfuvuxdjkqU1CXN0uI1Ob3Dzq7se4FKkFz7r7MS5FapMbXNouUaV2p7sjo4LUhkBqQyC1IZDaEGpqjw+aOzMaJ6mF4Yvu/ozDaWriwVx3j8bgRU1tIR4tcIU77/GmlRpi6+NP2EoNg7SPj7CVGqaEPt7DVmo/dPdoFIzFSWoBUuvn/S9SGwqpDYHUhkBqQyC1IU5Se8L3Vj1NAjW1YKK7P+PwM1RTE/XuT909GoVFk9rvX/JWXnePxuApbL5SNp4D/JihHzlGw3Kt6E5uYJSe95KfYAuj2DDyERtgCeQ8ubhbxTZfYOWoH7neFpa/oHyXGx96ezQKd8VMKld05wEWxfsqyrY8t3kgY8OPUPv4qHKrUvuju0fj8KO4uXp+Vm6y4Kx5cVNaCCb43qonJTekdoE6N6R2kTI3pHYhmRtSu5jIDakNMA8CpDbAHKkBAAAA6GBUmqZo87qJPu3y+RVlmxG12/MtX3m9erCrEJlWJY2LJm+fUEqt3bLcxaflDtlWfvxtWr/EskU4fpKu8vZjUrUmR0KydFa/B01fv/ljfbUl5cws2Pey5Wi7DrWp49r74mSalrs4zEk8sZ1Rx3FczsVf2eBROhXNUcJ5eSQzJUbKk1X5HntGYy0f7ut4lN3OSvJc2om8tq+b163tskzmNjXZbRzHs3Xm8ETs468Ph9nedbaHwzqWhzBlbBbfxeWRNoSsqZsVbzGrH10Pcap46vat6WbFlcjPXOctfzA1q13emHmo9mN2VB+ijI3dq0faMXOb/19Z3PLJlRGxLZVNP+G0iiOyuZWPsyY2366TEbH59SE6Y8tfnl/SMteefln3dWnFtnbM+kpOZqaTny9NbJHNjuVz52MjnsWZQbamc9p8FcRnVmPbu3YzoHzb3RE1tiWVOeZ6xCYGvPO2sTg3yNXxKC9LkDSPz+WW8qTFKWlii8SUWs+OXbFxVtYfVXyZyxhPNt/yQb6XVxcgdn79Z52x8aJyM1lSj+DO2KoCJCmfEbMBpzNyhZQCJJ8KduogjapBKpPl3D02J87n2AxRgDT1RyE23SO5Rq0CZKtOCXE1Jci6LeOmUrR2xda+tonTzXbWX9Jt3VozqbiC1wWIwU4KEDHikuYeCbGpsZF7pyp3jR0rSodqSpjaTaSI7TQ2w2UuXW/8zcFk9c1VOY7zO4hqv/95bMtWbCTKKM9v5U2X7opzq6nbdoxWKbwxq4lN3sobSWds23bbVVilabuuil07Xzji1QSwSdOyWotovRo0S2n7EFl6IC1GUQ1eIb/jNnvlLb1V1y5GE7Gyjlk+b3TUtdHqcxsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMX+AW4/Rreux7tcAAAAAElFTkSuQmCC" alt ="" > 
             <h1 class="headings">Fortify</h1>
             <p>If you are struggling to quit compulsive sexual habits, Fortify is here to equip you with tools, education, lifestyle coaching, teletherapy, and a community of others who know what you’re going through, to assist you in moving forward in your fight toward lasting freedom.</p>
             <a href="https://play.google.com/store/apps/details?id=com.ftnd.fortify">
-              <button>Download the Android App Here</button>
+              <button onclick="externalMsg()">Download the Android App Here</button>
             </a>
             <p class="IOSinfo"><a href="https://apps.apple.com/us/app/fortify-quit-porn-for-good/id1304648824">For IOS users click here</a></p>
             </div>
             <div class="box">
-              <img src = "https://play-lh.googleusercontent.com/ZSeo7ZJxVW_XDtj4Zo8iCUJW1mZPIbKGXX6V6OPjsQjhXDtITI09t9ilbWW42kfi-bg" >
+              <img class="services" alt="I am Sober App"src = "https://play-lh.googleusercontent.com/ZSeo7ZJxVW_XDtj4Zo8iCUJW1mZPIbKGXX6V6OPjsQjhXDtITI09t9ilbWW42kfi-bg" >
               <h1 class="headings">I am Sober</h1>
               <p>Along with tracking your sober days, it helps you build new habits and provides ongoing motivation by connecting you to a wide network of people all striving for the same goal: staying sober one day at a time.</p>
               <a href="https://play.google.com/store/apps/details?id=com.thehungrywasp.iamsober">
-                <button>Download the Android App Here</button>
+                <button onclick="externalMsg()">Download the Android App Here</button>
               </a>
               <p class="IOSinfo"><a href="https://apps.apple.com/us/app/i-am-sober/id672904239">For IOS users click here</a></p>
             </div>
+            </div>
             <!--Dealing with the websites and blogs; online resources-->
             <h3>Youtube Channels and Websites to inspire change and give hope to those overcoming:</h3>
+            <div class="row">
               <div class="box">
               <a href="https://fightthenewdrug.org/">
-                <img src="https://images.squarespace-cdn.com/content/v1/5511f9bee4b068878ae651fb/1528832076738-W03Q6RMQZR84IT89O1YM/image-asset.jpeg" alt="">
+                <img class="services"src="https://images.squarespace-cdn.com/content/v1/5511f9bee4b068878ae651fb/1528832076738-W03Q6RMQZR84IT89O1YM/image-asset.jpeg" alt="">
               </a>
                 <h1 class="headings">Fight the New Drug</h1>
-                <p></p>
-                <a href="">
-                  <button>Visit their Youtube Channel here</button>
+                <p>An organization formed by Clay Olsen as a non-religious, non-legislative means of educating people around the world on the harmful effects of pornography to oneself and the  society through facts and personal accounts.</p>
+                <a href="https://www.youtube.com/channel/UCaVFLmxpX-zw1o_U9pf2Wew">
+                  <button onclick="externalMsg()">Visit their Youtube Channel here</button>
                 </a>
                 </div>
                 <div class="box">
                   <a href="https://www.turningpoint.org.au/">
-                    <img src = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBEQEBAQEBEREBAQEA8ODhAREBAQGBcRGBcYGBcXFxcaICwjGh0oIBcXJDUkKC0vMjIyGSI4PTgxPCwxMi8BCwsLDw4PHRERHTEiIigxMTEvMTExMTExMTIxLzExMTExMTExMTExLzE8MTExMTExMTExMTExMTExMTExMTExMf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAQYCBAUHAwj/xAA+EAACAQIBBQwJBAICAwAAAAAAAQIDEQQFEiExQQYTFCIyUVNhcYGR0QcVFiNCUmKSwZOh4fAXVIKxM0Ny/8QAGgEBAAIDAQAAAAAAAAAAAAAAAAQFAQIDBv/EAC8RAAIBAgQDBgYDAQAAAAAAAAABAgMRBBITMSFBUQUUUnGBkTKxwdHh8CJhofH/2gAMAwEAAhEDEQA/APWwAYMgAAAAAAAAAAAAGNyTNgSCALAkEXJMGAAAAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAABysv43eaWbF8epeMepbX/ec51qsaVNzlsjanBzkox3Zx8q5VqSqtUakoQhxeJJq72s01lGv01T75GokZI8dUxVWc3JyfH+2eihQpxiopLh/Rtesa/TVPvkPWNfpp/fI1gaa1TxP3f3NtKn4V7I2XlHEdLU++Ri8o4jpqn3yNdmLGvV8T939xpQ8K9kbLyliOnqffI6+R8fUjNKrOU1PXnSbzXs1nDw1LOld6lp7zdZhY2rTmpKTduPFv2ONalTkstl7F0RBoZJxW+07PlwtGXXzM6B7WjWjWpqpDZ/v+FDKLjJxfIgEkHQ1AAAAAAAAAAAAAAAAAAAAAABIBhUkoxcm7JK7b5lpKPlHFOtVlP4eTBcyWr+9Z2t0mNslRi9MrSn1R2Lv/AAVyx5ztfFZp6Mdlv5/j5lx2fQtHUfPbyBKIRkUxZAgMhgEMi13ZbdQZs4Ond572aEat2VzEnZXNilTzY28e0yZkzFkW9yMfbA4l0ain8Oqa+ktcJXV1pT0plLZ3chYu8XSlrjph2c3ceg7ExeWehLZ8V5/kg4yldZ16nZIBB6krSQAYAAAAAAAAAAAAAAAAAAANfF4mNKnKpLVFX7XsR92yq7o8dnzVGL4tPTLrl/H/AGRcZiVh6Tnz2Xn+Nzvh6Lq1FHlzOVXrSqTlOWmUm5PyPmAeNbbd2eiSsrIkkgAyCGGQYBMY5zUVtOnGKSSWw18HTss563q7DYOFSV3Y4Td2GQSQczQxZNGq6c4zjri79vUGYs3i2ndBq6sy40KsakIzjqkr+aPoV/IWKzZOlJ8WemHbzd/4LAe7wOKWJoqfPZ+f7xKOtSdObj7EEgEs5gAGAAAAAAAAAAAAAADFuwANB5Gw7bbp6W23xpa/E2li6XSU/wBSHmTwul0lP74+ZpOlCfxxT81c2jKcfhbRqepcP0S8ZeZPqbD9EvF+ZtcLpdJT/Uj5jhdLpKf6kfM07rR8C9kba1XxP/TV9TYfol4vzHqbD9EvF+ZtcLpdJT/Uj5jhdLpKf6kPMx3Wj4F7Ia1XxP3ZqepsP0S8ZeY9S4fol4y8za4XS6Sn+pDzPuncd1o+BeyGtV8T92VTG4d0qjhs1wfPF6vI+JYsr4TfKeclx4Xa61tRWkzx3aWE7tWcV8L4ry6eha4erqQvz5mRJiiSAdwYsyIYBinZprQ0012otmT8Uq1OMvi5M11r+3KmzdyVit6qJN8SeiXU9jLTsrGd3rWl8MuD+j/eRHxVLUhdbotJAQPaFOAAYAAAAAAAAAAAIADKj6QsucGw+803ariVKC540tU5drvZdr5i04rEQpU51KjUYU4ynOT2RSuzwvL2VJY3E1K8rpSebSi9ObSWiMfDT2tnajDNK5Iw1LPK72RzlBcy8ETmrq8ESgTS1IzVzLwGauZeCJABjmdS8ERZdXgjK5nRpSqTjThFynOUYQitbk3ZIGCy7gMgrFYnfpwTo4ZxnLQrSq64R/L7FznsMTl7nMkxwWGp0Y6ZJZ1WXzVXypfjsSOqQak80rlRXq6k78uRJWMr4Xeql1yJ3cep7V/ecs5q4/CqtTcNuuD5pbCr7RwneaNl8S4r7evzsbYerpTu9uZVEyUYtNNp6Gm011ko8RaxcmQZCJMAxZDMmYmTJZMi4vfIZsnx6dovrjsf4OkVDA15U6sZRu9NnFbU9hbUey7JxTr0cst48PPoU+Kpac7rZ/rBJLILQjAAAAAAAAAEEkGhlzKcMJh6tepqprix+ab0Riu12M2uEm3ZFK9JuXLKOBpS0yzauIafw64Q79b7FznnR9cXiZ16tStUedUqSc5vrf8AbHxJ8I5Y2LilTVOKiZIIA3OoAIYBBf8A0Z5Ezpyx1RcWDdLDprXLVOfdpS7WU3I+Tp4vEUqFPlVJWctajBaZSfYj3XJ+EhQpU6NNZsKUYwgupc/WcK87LKRMXVyxyrmbIIJIhWkggkwCv5dwmbJVY6pWU/8A62M5JccRSVSMoS1SVmVGvRdOcoS1xdu1bGeS7ZwelV1Y7S/x/nctcHWzRyPdfIxRJiClJZLIDPpQpOpOMI65O3Z1m0U5Oy3F7K7OlkLCZ0nVeqOiHW9r7iwHyoUVThGEdUVZeZ8cp42OHo1K0+TCLdr63qjFdbdl3nu8BhFhqSprfn5/jYo8RWzyc3t9DbINPJePjiaNOtDVON7c0tsX1pm4S2rcGcYyUldbAAGDYAAAEEkGQDyb0iZc3+usNTd6WHbz7apVrWb681O3ey9bssucBwspxa32relQX1PXLsitPhzniul6W229Lb0tvnb2kihC/wDIm4Sld536CxIBKLABgAEMMhnb3I5EeOxUINe5p+9xD+hao9sno7L8xhtJXZrKSirsvXo4yFvFF4qpG1SulvaeuNHZ2OT09iRdkYwppJJJJJJJLUlsSMivlJyd2U05ucnJgAGpqAAADkZdwmdBVFyoaJda/g7BjJJqz0p6H2HDE0I4ik6cuf8Aj5P0N6dR05KSKWDZx+FdGo4/C9MH9LNU8JUpypzcJbrgXsZKSuiWd7IeEzYupJcaWiHUv5OVgMM61RR2cqb5kWuMUlZaEtCXUi77EweaevLZcF59fT5kHG1rLIvUlnne7nK2+1VhoPiUneo1tnbV3Xt2tlu3R5V4Jh51FbfJe7or63t7Fr7jyhybbbd22229retntMJSu875Hle1MTlWlHnv5dC0bhsrbzVeHm/d1n7u+yrzd60dqR6ImeJptWabTTTTWx7Gj1Xc5lbhWHjNv3kbQrL61t7GtPiMXSs869R2XibrSly4ry6eh1yQCEXAAAAMajSTb0JaW27aCSmekbLm8UFhqbtVxCefbXGjt7HLV2XNoxcnZG0IOclFFF3X5beOxUpxd6VK9Kgvovpn/wAnp7LHEISJLBJJWRcxiopJCwJsDJsQAQwB1LS3oSXOe0bjMhcCwsVJWrVbVK/VK3Fh/wAVo7blG9HmQuEYjhFSN6WHacb6pVtcV3a/A9aRGrzu8qK/F1eORepkjEyMSMQiQAYAAAAJIABoZXwu+03ZceHGh+UVcu5yPVa3/Pt7vlW+rm7L6Si7V7OlWnGpT3fB/R+nP0JuFxChFxl5r7GxkjCb1Tu+XO0pdS2I3m7Ela3bZX3ihvMH72snHR8NP4n2vUu18xd4bDqEY0afLgV+JxGWMqs/3+iobqsrcKxDcX7mlenT069PGl3v9kjioEovoRUYpI8fVqSqTc5bsg7W5fK3BcRFydqNW1OqtiWyXc/2bOMQJRUlZmKdSVOSnHdHtsZX1dpJWNxGVt/oOlN3q0Ukr65U9UX3avAs5TTi4ScWevo1VVgpx5gAGh1NfGYuFClUrVHaFOLnN9S/J4ZljKU8XiKleprqS4sflguTFdisegelStWhhaOYr0JVbV2nZ51lvaa+W9+9R5zyrha+V+KJdBJK5YYSKUc3U2EjKxrcKXyvxHCl8r8SRdExSRs2FjX4WvlfiRwtfK/EXGZGxY+mGw061SnSprOqVJRpwivmf4NPhS+V+JdPRhUoTxlTfLqtGk3h09TX/sa+pK3dc0lOyuaVKmWLkelZDyVDB4elQp6cxXnL5qj0yl4nRCNLKeNdBKWZnxbzW1K1ns2EHi2Uk52vKRvA4K3RLon+p/A9ol0T+9eRtpS6HLvNLqd0g4ntCuif3ryHtEuif3ryGnLoO80up2wcT2iXRP715D2iXRP715DTl0Md5pdTtmRwvaJdE/vXkPaJdE/vXkNOXQd5peI7hkcH2iXRP715E+0K6J/evIacuhnvNLqdbEV404TqTajCEZTm3sSWk8jyvlGWKr1K0rrOdoxfw01qX92tlo3X5WqVcOoQi4Qc1v3Gu3H4Vq1Xt4IpKJ2EpZU5Pcpu08TnahHZcfN/j5kkkEkwqCTFmRDMg3MlZQlhq1OtDTmu04/NB8qPh+6R65h60alOFSDzoTipwa2p6TxY9D3AyqvDTU//ABKo1Re3nmuy/wC9yDjIfxzlx2VWam6fJ8fL/pawAV1i+saeU8DTxFCrQqq9OtCUJ9+prrTs+4/P2V8m1MJiKuHq8ulLNvslH4ZLqas+8/RhQfSfuf36isbSjerQWbWtrlR5+vNbv2NnalOzs+ZJw1TLLK+Z5MkLEpEkosDGwsZAyZMbH3yfi6mHrU69J5tSlNVIPrWx9TV0+pnxsGjBg/RGRMqU8Zh6WIpcmpFNx2xlqlF9ad0bWIoqpCUJapKz8zyb0Y5f3jEPCVZWo4iSdK+qNfYurOWjtSPXkyHOOSRV1qeSWXkUfEUZUpypy1xdu3mZ80WLdDgs6CrRXGhon1w/grqJMJZlcoq1PTlYmxNiQbnIiwsSACLCxIBkiwsSACJ01KLi1dSTi11MqGLwzo1JQezkvnjsZcTnZbwe+U8+PLp3fbDavz4m9OVmR8RTzRut0VolGKJRLK0khi4ANrJmBniK1OjDXOVm/lj8Un2I9dweGjSpwpQWbCnFQiupfkrm4fJG9UXiKi95WXFvrjT/AJ1+BakVeKq55WWyPS9m4bTp53vL5cvuSDEEWxZXBjVgpRcZJSUk1JNXTT0NGYMg8D3XZDeAxc6VnvU/e4eWu9NvVfni7ruvtOKe37vchcOwssyN8RQvVoWtd6ONDvS8UjxAmU55olnQqZ4/2CSAjqdgGSQAE2mmm007xa0NNamnznu24zLqx+EhNtb7T91iI6veJcpLmktPe+Y8JZYdxGXuAYuMpO2HrWo4jmSb4s/+L/Zs5VYZkcK9PPHhuj3WSTVmrpqzXUU7KOF3irKHwvjU39LLhGV9WnanoNDLGD36noXHhxofld5HpyyviUmJpakOG6KqgYoyRLKokEIkGQAAAAACUZIwJMAquVsHvNV25E+NDq549xpotmU8LvtJx+Jcam/q/nUVPV2rQyXSnmRXV6eSXDYHX3N5K4XiIwa91C1Ss/pT5Pe9Hicm3ffQtp6luYyTwXDxUl72padV80mtEe5aO25piamSHDdnXAYbWq8dlxf0XqdqMUtCVklZLqMgQVB6kAAAAAAho8Z9I2QOC4rf6atQxTc9GqFb449V+Uu/mPZjl7ocjwxuGq4eejPSdOdr5lRcmXd/02dISyyOlGpklc/PwRf16LsR/t0Psq+ZP+LcR/t0PsqeZJVWHUsNen1KAQz0D/FuI/26H2VfMf4txH+3Q+yr5mdWHUx3il4jz8ho9B/xbiP9uh9lTzH+LcR/t0PsqGNWHUd4peIsHo0y/wAIw/Bqj99hYqKvrlQ+CXdyX3c5dzzfIe4LF4LE08RDFUG4O04ZtVZ9N8qHev3sejRItTLe8SBWy5rxfBlWy3g96qZ8eRU0rqltX5Oci5Y/CqtTcHovpi+aWxnEW56p0sPCR2hVVrMqa2GlnvBbnJRJ1/Z+p0sPCQ9n6nSw8JG+pDqcu71fCcgHX9n6nSQ8JD2fqdLDwkNSHUd3q+E5AOv7P1Olh4SJ9n6nSQ8JDVh1Hd6vhOOSdf1BPpY+Eh6gqdJDwkNWPUd3q+E5BXcu4PMnvsVxZvjdU/58y8+oZ9JDwkfPE7mpVYShKpG0lzPQ9jNoVoxe5zq4OpONspW9xOSd/rb/ADXuqLTX1VdaXdr8D0mJpZJyfHC0adGDuoLjStbOm9cn3m6R69TUncscHh9Cko8+fmAAcSUAAAAAABYAAWFgABYWAAFhYAAiwJBkEAkAEAkAEAkAEAkAEAkAECxIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/9k=" alt ="">
+                    <img class="services" src = "data:image/jpeg;base64,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" alt ="">
                   </a>
                   <h1 class="headings">Turning Point</h1>
                   <p>They help to rehabilitate those with an alcoholic and gambling addiction by providing high quality, evidence-based treatment to people adversely affected by alcohol, drugs and gambling, integrated with world-leading research and education.</p>
-                  <a href="https://www.youtube.com/channel/UCI7-UFm3Y7qtrUTYyWirMkA">
-                    <button>Visit their Youtube Channel here</button>
+                  <a href ="https://www.youtube.com/channel/UCI7-UFm3Y7qtrUTYyWirMkA">
+                    <button onclick="externalMsg()">Visit their Youtube Channel here</button>
                   </a>
                   </div>
                   <div class="box">
                     <a href="https://exoduscry.com/">
-                      <img src = "https://i.pinimg.com/280x280_RS/aa/ce/7b/aace7b786ecfab4c005b4fb98af7bd91.jpg" alt ="">
+                      <img class="services" src = "https://i.pinimg.com/280x280_RS/aa/ce/7b/aace7b786ecfab4c005b4fb98af7bd91.jpg" alt ="">
                     </a>
                     <h1 class="headings">Exodus Cry</h1>
                     <p>Wanting to learn more how sex trafficking affects the world? And how Pornography has made it easier for perpertrators to get away with their heinous crimes? Their website and channel serves as a great learning point so that you can make informed decisions<p>
-                    <a href="">
-                      <button>Visit their Youtube Channel Here</button>
+                    <a href="https://www.youtube.com/@ExodusCry">
+                      <button onclick="externalMsg()">Visit their Youtube Channel Here</button>
                     </a>
                     </div>
+                  </div>
     </section>
+    <footer>
+      <p>Diamika Youth Program - Changing Mindsets</p>
+      <p>For updates on our program and the latest news from our partners, reach us through:</p>
+      <span class="main-header">OUR SOCIAL MEDIA PLATFORMS</span>
+      <div class="social">
+     
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-dribbble"></i></a>
+      </div>
+      <p class="end">Designed by Wamuyu Wachira of CMT 108 @ 2022</p>
+    </footer>
+  </body>
+  </html>
